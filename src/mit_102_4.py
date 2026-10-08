@@ -52,4 +52,11 @@ votes = neighbors["species"].value_counts()
 # count the highest number of votes
 prediction = votes.idxmax()
 
+# display sample (input)
+print(f"Sample input: ")
+print(f"sepal_length = {sample[0]} ")
+print(f"sepal_width = {sample[1]} ")
+print(f"petal_length = {sample[2]} ")
+print(f"petal_width = {sample[3]} ")
+print(f"k = {k}")
 print(f"The predicted specie is: {prediction}")
