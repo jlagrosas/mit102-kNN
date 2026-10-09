@@ -56,10 +56,12 @@ https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/0e7a9b0a5d226
 
 2. data/sample.txt
 Contains values for the sample to be classified. Sample format:
+The sample data contains entries for sepal_length and sepal_width, but the are not used in the calculation.
+
 
 ```
-0.0  # sepal_length
-1.0  # sepal_width
+0.0  # sepal_length, not used
+0.0  # sepal_width, not used
 5.5  # petal_length
 2.1  # petal_width
 ```

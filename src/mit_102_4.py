@@ -1,6 +1,7 @@
 # Sample implementation to calculate for distances from a sample point to all entries in a dataset using Euclidian Distance
 # author: lagrosas.jessiechristophere@gmail.com
 # for: MIT 102 - kNN activity
+# professor: Jocelyn Barbosa, Ph.D.
 
 import numpy as np
 import pandas as pd
@@ -43,8 +44,6 @@ df["distance"] = np.sqrt(
     (df["petal_length"] - sample[2]) ** 2 + (df["petal_width"] - sample[3]) ** 2
 )
 
-# remove the sample from df
-df = df[df["distance"]>0]
 # sort according to "distance"
 df_sorted = df.sort_values("distance")
 # the top k are the nearest neighbors

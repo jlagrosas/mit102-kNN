@@ -1,4 +1,4 @@
-0.0  # sepal_length
-1.0  # sepal_width
+0.0  # sepal_length, not used
+0.0  # sepal_width, not used
 5.5  # petal_length
 2.1  # petal_width
