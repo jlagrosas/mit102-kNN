@@ -1,4 +1,4 @@
-# kNN Activity
+ kNN Activity
 
 ## MIT 102 - Advanced Database Systems
 
@@ -58,16 +58,16 @@ https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/0e7a9b0a5d226
 Contains values for the sample to be classified. Sample format:
 
 ```
-5.1  # sepal_length
-3.5  # sepal_width
-6.0  # petal_length
-2.0  # petal_width
+0.0  # sepal_length
+1.0  # sepal_width
+5.5  # petal_length
+2.1  # petal_width
 ```
 3. data/k.txt
 Contains the value for k. Sample format:
 
 ```
-10
+8
 ```
 
 ## Getting Started
