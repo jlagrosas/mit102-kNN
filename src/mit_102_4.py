@@ -113,7 +113,7 @@ for _, neighbor in neighbors.iterrows():
         linewidth=1
     )
 
-print(neighbors)
+
 ## plotting the nearest neighbors
 plt.scatter(
     neighbors["petal_length"],
@@ -146,6 +146,5 @@ plt.title(
 )
 
 plt.legend()
-
 plt.grid(alpha=0.2)
 plt.show()
