@@ -37,6 +37,7 @@ Note:
 
 ## Project Directory Structure
 
+```
 mit102-kNN/
 ├── data/
 │   ├── iris.csv
@@ -46,6 +47,7 @@ mit102-kNN/
 │   └── mit_102_4.py
 ├── requirements.txt
 └── README.md
+```
 
 Data Files:
 1. data/iris.csv
