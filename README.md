@@ -29,6 +29,7 @@ A script to calculate for kNN by finding the similarity distance,
 
 ## Project Directory Structure
 
+```
 mit102-kNN/
 ├── data/
 │   ├── iris.csv
@@ -38,6 +39,7 @@ mit102-kNN/
 │   └── knn.py
 ├── requirements.txt
 └── README.md
+```
 
 Data Files:
 1. data/iris.csv
