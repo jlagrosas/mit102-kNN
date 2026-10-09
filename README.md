@@ -2,7 +2,15 @@
 
 ## MIT 102 - Advanced Database Systems
 
-A script to calculate for kNN by finding the similarity distance,
+### Professor: Jocelyn B. Barbosa, Ph.D.
+
+A project for MIT 102 class.
+
+A script to calculate the k-Nearest Neighbor (k-NN) classification by finding the similarity distance, using Euclidian distance. 
+
+A sample feature is compared to a dataset (iris dataset downloaded), and using majority voting to classify the sample feature. Visualization is also added for easy analysis.
+
+Note: 
 
 ## Objectives:
 - To apply kNN algorithm to a fisheriris dataset
@@ -35,7 +43,7 @@ mit102-kNN/
 │   ├── input.txt
 │   └── k.txt
 ├── src/
-│   └── knn.py
+│   └── mit_102_4.py
 ├── requirements.txt
 └── README.md
 
@@ -121,12 +129,15 @@ Used to create the graph for display.
 [matplotlib.pyplot.scatter](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html#matplotlib.pyplot.scatter)
 
 Matplotlib tutorials
-    [matplotlib line, bar, scatter](https://www.datacamp.com/tutorial/matplotlib-tutorial-python?utm_cid=19589720824&utm_aid=157156376311&utm_campaign=230119_1-ps-other~dsa-tofu~all_2-b2c_3-apac_4-prc_5-na_6-na_7-le_8-pdsh-go_9-nb-e_10-na_11-na&utm_loc=9066905-&utm_mtd=-c&utm_kw=&utm_source=google&utm_medium=paid_search&utm_content=ps-other~apac-en~dsa~tofu~tutorial~python&gad_source=1&gad_campaignid=19589720824&gbraid=0AAAAADQ9WsFdVVtYaofcEeHmdt4Cf_AUG)
+[matplotlib line, bar, scatter](https://www.datacamp.com/tutorial/matplotlib-tutorial-python?utm_cid=19589720824&utm_aid=157156376311&utm_campaign=230119_1-ps-other~dsa-tofu~all_2-b2c_3-apac_4-prc_5-na_6-na_7-le_8-pdsh-go_9-nb-e_10-na_11-na&utm_loc=9066905-&utm_mtd=-c&utm_kw=&utm_source=google&utm_medium=paid_search&utm_content=ps-other~apac-en~dsa~tofu~tutorial~python&gad_source=1&gad_campaignid=19589720824&gbraid=0AAAAADQ9WsFdVVtYaofcEeHmdt4Cf_AUG)
 
     
 ## Youtube videos
 
 [kNN (k-Nearest Neighbors Algorithm) | Data Mining and Applications | SY 2020-2021](https://www.youtube.com/watch?v=iUDgdP19UhY)
+@letsminedatawithjocelynbar6827
+
 
 [Solved Numerical Example of KNN Classifier to classify New Instance IRIS Example by Mahesh Huddar](https://www.youtube.com/watch?v=Vk9lGGODaJA)
+Mahesh Huddar
  
