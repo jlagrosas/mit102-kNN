@@ -13,7 +13,8 @@ INPUT_K="data/k.txt"
 
 
 # read the dataset
-df = pd.read_csv(INPUT_CSV)
+## using only petal_length, petal_width and species, since the new sample only has these 2 fields
+df = pd.read_csv(INPUT_CSV, usecols=["petal_length", "petal_width", "species"])
 print("The input dataset:")
 print(df)
 
@@ -29,10 +30,6 @@ with open(INPUT_SAMPLE, "r") as file:
 # convert sample to np array
 sample = np.array(sample)
 
-print(f"Sample:")
-print(sample)
-print(f"Len sample:", len(sample)) 
-
 # read value of k
 with open(INPUT_K, "r") as file:
     k = int(file.read().strip())
@@ -40,8 +37,9 @@ with open(INPUT_K, "r") as file:
 
 ## calculating for the distance to each entry in dataset against sample
 ## add a field "distance" to the dataframe
+## removed sepat_width and sepal_length from the equation, so as not to distort the output
 df["distance"] = np.sqrt(
-    (df["sepal_length"] - sample[0]) ** 2 + (df["sepal_width"] - sample[1]) ** 2  +
+#    (df["sepal_length"] - sample[0]) ** 2 + (df["sepal_width"] - sample[1]) ** 2  +
     (df["petal_length"] - sample[2]) ** 2 + (df["petal_width"] - sample[3]) ** 2
 )
 
@@ -71,8 +69,8 @@ prediction = votes.idxmax()
 
 # display sample (input)
 print(f"Sample input: ")
-print(f"sepal_length = {sample[0]} ")
-print(f"sepal_width = {sample[1]} ")
+# print(f"sepal_length = {sample[0]} ")
+# print(f"sepal_width = {sample[1]} ")
 print(f"petal_length = {sample[2]} ")
 print(f"petal_width = {sample[3]} ")
 print(f"k = {k}")
