@@ -20,7 +20,18 @@ Note:
 ## Notes:
 - Apply using the Euclidian distance of 2 data points
 
-## Sample data
+### Calculating for the distance 
+
+Using only petal_length and petal_width:
+
+df["distance"] = np.sqrt(
+    (df["petal_length"] - sample[2]) ** 2 + (df["petal_width"] - sample[3]) ** 2
+)
+
+where sample[2] is the petal_lenght of the new sample, and sample[3] is the petal_width of the new sample.
+
+
+# Sample data
 
 | sepal_length | sepal_width | petal_length | petal_width | species |
 | :---         | :---        | :---         | :---        | :---    |
